@@ -15,6 +15,7 @@
 		1CC1E8B0240E6B7200577318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1E8AE240E6B7200577318 /* LaunchScreen.storyboard */; };
 		1CC1E8BB240E6B7200577318 /* Walk_It_OutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1E8BA240E6B7200577318 /* Walk_It_OutTests.swift */; };
 		1CC1E8C6240E6B7200577318 /* Walk_It_OutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1E8C5240E6B7200577318 /* Walk_It_OutUITests.swift */; };
+		1CCC0C8D24174B4D00937EEE /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC0C8C24174B4D00937EEE /* HistoryController.swift */; };
 		1CCC5A072411DCCA00D4C5B0 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC5A062411DCCA00D4C5B0 /* AppUtility.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		1CC1E8C1240E6B7200577318 /* Walk It OutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Walk It OutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC1E8C5240E6B7200577318 /* Walk_It_OutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walk_It_OutUITests.swift; sourceTree = "<group>"; };
 		1CC1E8C7240E6B7200577318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CCC0C8C24174B4D00937EEE /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
 		1CCC5A062411DCCA00D4C5B0 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				1CCC5A062411DCCA00D4C5B0 /* AppUtility.swift */,
 				1CC1E8A5240E6B7100577318 /* SceneDelegate.swift */,
 				1CC1E8A7240E6B7100577318 /* ViewController.swift */,
+				1CCC0C8C24174B4D00937EEE /* HistoryController.swift */,
 				1CC1E8A9240E6B7100577318 /* Main.storyboard */,
 				1CC1E8AC240E6B7200577318 /* Assets.xcassets */,
 				1CC1E8AE240E6B7200577318 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CCC0C8D24174B4D00937EEE /* HistoryController.swift in Sources */,
 				1CCC5A072411DCCA00D4C5B0 /* AppUtility.swift in Sources */,
 				1CC1E8A8240E6B7100577318 /* ViewController.swift in Sources */,
 				1CC1E8A4240E6B7100577318 /* AppDelegate.swift in Sources */,
@@ -440,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9APK33YLU8;
+				DEVELOPMENT_TEAM = ZVFHU6RX9A;
 				INFOPLIST_FILE = "Walk It Out/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9APK33YLU8;
+				DEVELOPMENT_TEAM = ZVFHU6RX9A;
 				INFOPLIST_FILE = "Walk It Out/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

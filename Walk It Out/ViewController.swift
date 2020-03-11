@@ -89,22 +89,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
             return meters * mile
         }
     
-        // display the updated data
-        func displayPedometerData(){
-
-            //Number of steps
-            if let numberOfSteps = self.numberOfSteps{
-                stepsLabel.text = String(format:"Steps: %i",numberOfSteps)
-            }
-             
-            //distance
-            if let distance = self.distance{
-                distanceLabel.text = String(format:"Distance: %02.02f meters,\n %02.02f mi",distance,miles(meters: distance))
-            } else {
-                distanceLabel.text = "Distance: N/A"
-            }
-        }
-    
     // To set step goal increments by 50
     @IBAction func goalSetter(_ sender: UIStepper) {
         goalLabel.text = "Step Goal: \(Int(sender.value * 50))"
@@ -145,27 +129,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewWillAppear(animated)
 
         AppUtility.lockOrientation(.portrait)
-        // Or to rotate and lock
-        // AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
-        
-//        textField.delegate = self
-//        textField.returnKeyType = .done
-//
-//
-//        textField.center = self.view.center
-//        textField.backgroundColor = UIColor.white
-//        textField.keyboardType = UIKeyboardType.numberPad
-//
-//
-//        self.view.addSubview(textField)
-//
+
     }
-    
-//    func textFieldShouldReturn(_ textField: UITextField) -> Bool
-//    {
-//        textField.resignFirstResponder()
-//        return true
-//    }
+
 
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
