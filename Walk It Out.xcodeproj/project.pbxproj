@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C139C4A2418800500A2AF07 /* SF-Compact-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1C139BED2418800200A2AF07 /* SF-Compact-Text-Regular.otf */; };
+		1C19FCA1241BC3C900AB9E5A /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C19FCA0241BC3C900AB9E5A /* CircularProgressView.swift */; };
 		1CC1E8A4240E6B7100577318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1E8A3240E6B7100577318 /* AppDelegate.swift */; };
 		1CC1E8A6240E6B7100577318 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1E8A5240E6B7100577318 /* SceneDelegate.swift */; };
 		1CC1E8A8240E6B7100577318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1E8A7240E6B7100577318 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C139BED2418800200A2AF07 /* SF-Compact-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-Regular.otf"; path = "../../../../../Library/Fonts/SF-Compact-Text-Regular.otf"; sourceTree = "<group>"; };
+		1C19FCA0241BC3C900AB9E5A /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		1CC1E8A0240E6B7100577318 /* Walk It Out.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Walk It Out.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC1E8A3240E6B7100577318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CC1E8A5240E6B7100577318 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C139BCB24187FA500A2AF07 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1C139BED2418800200A2AF07 /* SF-Compact-Text-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		1CC1E897240E6B7100577318 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 				1CC1E8B9240E6B7200577318 /* Walk It OutTests */,
 				1CC1E8C4240E6B7200577318 /* Walk It OutUITests */,
 				1CC1E8A1240E6B7100577318 /* Products */,
+				1C139BCB24187FA500A2AF07 /* Fonts */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +119,7 @@
 				1CC1E8A3240E6B7100577318 /* AppDelegate.swift */,
 				1CCC5A062411DCCA00D4C5B0 /* AppUtility.swift */,
 				1CC1E8A5240E6B7100577318 /* SceneDelegate.swift */,
+				1C19FCA0241BC3C900AB9E5A /* CircularProgressView.swift */,
 				1CC1E8A7240E6B7100577318 /* ViewController.swift */,
 				1CCC0C8C24174B4D00937EEE /* HistoryController.swift */,
 				1CC1E8A9240E6B7100577318 /* Main.storyboard */,
@@ -239,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC1E8B0240E6B7200577318 /* LaunchScreen.storyboard in Resources */,
+				1C139C4A2418800500A2AF07 /* SF-Compact-Text-Regular.otf in Resources */,
 				1CC1E8AD240E6B7200577318 /* Assets.xcassets in Resources */,
 				1CC1E8AB240E6B7100577318 /* Main.storyboard in Resources */,
 			);
@@ -269,6 +284,7 @@
 				1CCC5A072411DCCA00D4C5B0 /* AppUtility.swift in Sources */,
 				1CC1E8A8240E6B7100577318 /* ViewController.swift in Sources */,
 				1CC1E8A4240E6B7100577318 /* AppDelegate.swift in Sources */,
+				1C19FCA1241BC3C900AB9E5A /* CircularProgressView.swift in Sources */,
 				1CC1E8A6240E6B7100577318 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
